@@ -1,0 +1,25 @@
+h1{
+    font-style: italic;
+    color: red;
+    text-align: center;
+}
+
+div.Banner{
+    text-align: center;
+    color: green;
+    font-size: 150%;
+}
+
+body{
+    background-color: black;
+}
+
+a{
+    font-size: 150%;
+    text-align: center;
+}
+
+a.Matrix{
+    text-align: center;
+}
+
