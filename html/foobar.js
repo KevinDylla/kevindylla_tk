@@ -1,4 +1,3 @@
-<script type="text/javascript">
 function RedirectSmartphone(url){
     if (url && url.length > 0 && IsSmartphone())
     window.location = url;
@@ -23,4 +22,3 @@ function DetectUagent(name){
     return false;
 }
 RedirectSmartphone("kevindylla.tk/mobil.html");
-</script> 
