@@ -4,10 +4,10 @@ h1{
     text-align: center;
 }
 
-pre{
+div.Banner{
     text-align: center;
-    font-size: 150%;
     color: green;
+    font-size: 150%;
 }
 
 body{
@@ -18,3 +18,4 @@ a{
     font-size: 150%;
     text-align: center;
 }
+.
