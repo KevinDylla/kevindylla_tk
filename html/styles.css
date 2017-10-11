@@ -44,3 +44,21 @@ a:hover {
 a:visited {
     text-decoration: none;
 }
+
+div.buttons{
+    bottom: 0;
+    height: 100%;  
+    text-align: left;
+    position: fixed;
+    font-size: 30px;  
+}
+
+div.buttons:hover{
+    text-decoration: none;
+}
+
+div.buttons:visited {
+    text-decoration: none;
+}
+
+
