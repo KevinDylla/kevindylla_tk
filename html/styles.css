@@ -1,24 +1,46 @@
-h1{
-    font-style: italic;
-    color: red;
-    text-align: center;
+@font-face {
+    font-family: 'Homemade Apple';
+    src: url('./fonts/HomemadeApple-Regular.ttf');
+}
+@font-face{
+    font-family: 'Rock Salt'; 
+    src: url('./fonts/RockSalt-Regular.ttf')
 }
 
-div.Banner{
+
+
+h1{
+    color: rgb(255, 255, 255);
     text-align: center;
-    color: green;
-    font-size: 150%;
+    font-family: 'Rock Salt', cursive;
+    font-size: 4em;
 }
+
+/* div.Banner{ */
+/*     text-align: center; */
+/*     color: #0dff0d; */
+/*     font-size: 50% 20em; */
+/*     font-family: 'Satisfy', cursive; */
+/* } */
 
 body{
-    background-color: black;
+    background-image: url('Pix/ios-linen.jpg');
+}
+
+div.eintrage{
+    text-align: center;
+    font-size: 40px;
 }
 
 a{
-    font-size: 150%;
-    text-align: center;
+    color: white;
+    font-family: 'Homemade Apple', cursive;
+    text-decoration: none;
 }
 
-a.Matrix{
-    text-align: center;
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    text-decoration: none;
 }
